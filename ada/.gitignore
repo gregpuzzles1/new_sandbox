@@ -1,0 +1,19 @@
+# =========================
+# Ada / GNAT build artifacts
+# =========================
+*.ali
+*.o
+*.obj
+*.exe
+*.out
+
+# GNAT project files output
+obj/
+bin/
+
+# GNAT Studio
+.gnatstudio/
+*.gps
+
+# Backup files
+*~
