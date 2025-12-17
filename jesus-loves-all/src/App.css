@@ -1,0 +1,157 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: #111827;
+  background: radial-gradient(circle at top, #e0f2fe, #f9fafb);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center */
+  align-items: center;     /* horizontally center */
+  text-align: center;
+  background: radial-gradient(circle at top, #e0f2fe, #f9fafb);
+}
+
+.title h1 {
+  max-width: 28rem;
+  margin: 0 auto 2rem;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  color: #1e293b;
+}
+
+.circle-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 480px;   /* bigger circle */
+  height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff 40%, #bfdbfe 100%);
+  box-shadow: 0 18px 35px rgba(15, 23, 42, 0.18);
+}
+
+/* Little heart in the center */
+.circle-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+}
+
+.figure-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+/* --- Figure styling --- */
+
+.figure {
+  --skin: #f5c6a5;
+  --hair: #222222;
+  --body: #3b82f6;
+  --accent: #e0f2fe;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Head */
+.head {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--hair);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--skin);
+  position: relative;
+}
+
+/* Eyes */
+.face .eyes::before,
+.face .eyes::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #111827;
+}
+
+.face .eyes::before {
+  left: 30%;
+}
+
+.face .eyes::after {
+  right: 30%;
+}
+
+/* Smile */
+.face .mouth {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  width: 18px;
+  height: 10px;
+  border-bottom: 3px solid #111827;
+  border-radius: 0 0 999px 999px;
+  transform: translateX(-50%);
+}
+
+/* Body */
+.body {
+  width: 50px;
+  height: 70px;
+  border-radius: 12px 12px 10px 10px;
+  background: var(--body);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* Simple accent (like suspenders or buttons) */
+.body-accent {
+  width: 70%;
+  height: 45%;
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: 2px solid var(--accent);
+  border-top-width: 3px;
+  margin-bottom: 6px;
+}
+
+/* Slight hover for fun */
+.figure:hover {
+  transform: translateY(-4px);
+  transition: transform 150ms ease-out;
+}
