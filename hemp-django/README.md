@@ -1,20 +1,20 @@
-# hemp-danjo
+# hemp-django
 
 A loving tribute to Hemp, our living border collie.  
-This repository ("Hemp tribute in danjo") celebrates Hemp through creative coding, giving Border Collie fans and pet lovers a unique place to remember, explore, and contribute in honor of an amazing companion.
+This project ("Hemp tribute in django") celebrates Hemp through creative coding, giving Border Collie fans and pet lovers a unique place to remember, explore, and contribute in honor of an amazing companion.
 
 ## Project Structure
 
-- `hemp-danjo.py`: Main Python script for the tribute project.
+- `hemp-django.py`: Main Python script for the tribute project.
 - `requirements.txt`: Lists the Python dependencies.
-- `assets/`: Directory reserved for images or other asset files relevant to Hemp or the project.
+- `assets/`: Directory reserved for images or other asset files relevant to Hemp or the project. 
 
 ## Getting Started
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/gregpuzzles1/hemp-danjo.git
-   cd hemp-danjo
+   git clone https://github.com/gregpuzzles1/playground.git
+   cd playground/hemp-django
    ```
 
 2. **Install dependencies**

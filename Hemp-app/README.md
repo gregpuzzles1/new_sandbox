@@ -1,12 +1,12 @@
 # Hemp App
 
-A celebration of our amazing Border Collie, Hemp.
+A celebration of our amazing Border Collie, Hemp. 
 
-This is a simple one-page application created to honor and celebrate Hemp, our loyal companion who brings joy, energy, and adventure into our lives every day. While there is no photo upload or gallery feature, this app captures the spirit of Hemp through a thoughtfully designed and interactive interface.
+This is a simple one-page application created to honor and celebrate Hemp, our loyal companion who brings joy, energy, and adventure into our lives every day. While there is no photo upload or gallery[...]
 
 ## 🐾 About the Project
 
-The Hemp App is designed as a digital celebration. You’ll find a single-page experience with heartfelt content, anecdotes, and memories—all crafted to appreciate Hemp and the happiness he shares with us in a modern, accessible way.
+The Hemp App is designed as a digital celebration. You'll find a single-page experience with heartfelt content, anecdotes, and memories—all crafted to appreciate Hemp and the happiness he shares w[...]
 
 ## 🚀 Built With
 
@@ -26,7 +26,7 @@ The Hemp App is designed as a digital celebration. You’ll find a single-page e
 ## 💡 Features
 
 - Single-page app experience celebrating Hemp.
-- Modern, responsive design.
+- Modern, responsive design. 
 - Clean, accessible, and easy to use.
 - No account creation or user data required.
 
@@ -36,8 +36,8 @@ To run the Hemp App locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/gregpuzzles1/Hemp-app.git
-   cd Hemp-app
+   git clone https://github.com/gregpuzzles1/playground.git
+   cd playground/Hemp-app
    ```
 2. **Install dependencies:**
    ```bash
