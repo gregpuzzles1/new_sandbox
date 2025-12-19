@@ -1,6 +1,6 @@
 # TypeScript Experiments
 
-This repository contains test files and experiments for learning TypeScript.
+This directory contains test files and experiments for learning TypeScript. 
 Personal TypeScript utilities and web apps for Raspberry Pi 5
 
 ## Overview
@@ -16,12 +16,10 @@ A playground for experimenting with TypeScript concepts, syntax, and tools. Idea
 
 ### Installation
 
-Clone the repository and install any required dependencies:
+Navigate to this directory from the playground repository root: 
 ```bash
-git clone https://github.com/gregpuzzles1/TypeScript.git
-cd TypeScript
+cd typescript
 # Install dependencies if any are added in the future
-```
 
 ## Usage
 
